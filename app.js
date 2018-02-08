@@ -18,7 +18,7 @@ var supply = require('./routes/supply');
 var cert = require('./routes/cert');
 
 
-mongoose.connect('mongodb://localhost/apidatabase')
+/*mongoose.connect('mongodb://localhost/apidatabase')
     .then(() => console.log('connection succesful'))
     .catch((err) => console.error(err));
 var db = mongoose.connection;
@@ -32,7 +32,7 @@ app.use(session({
         mongooseConnection: db
     })
 }));
-
+*/
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));

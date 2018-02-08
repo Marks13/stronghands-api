@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var litecoin = require('node-litecoin');
+var litecoin = require('bitcoin-core');  
 var url = require('url');
 var crypto = require('crypto');
 var config = require('../config');

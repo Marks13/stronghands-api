@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 
-var stronghands = require('node-litecoin');
+var stronghands = require('bitcoin-core');
 
 router.get('/', function(req, res) {
 
